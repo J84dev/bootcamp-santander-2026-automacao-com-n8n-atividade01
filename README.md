@@ -1,7 +1,9 @@
-# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br>
-**TEMA/OBJETIVO:**<br>
-Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br><br>
-**FONTES - VIDEOS:**<br>
+# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**
+
+# **TEMA/OBJETIVO:**<br>
+Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br>
+
+# **FONTES - VIDEOS:**<br>
 - https://www.youtube.com/watch?v=1O2LkhlKO5Q<br>
 - https://www.youtube.com/watch?v=hrvx8Nv9eQA<br>
 - https://www.youtube.com/watch?v=C842vFY5kRo<br>
@@ -11,17 +13,17 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 - https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
 - https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
 
-**FONTES - PDF:**<br>
+# **FONTES - PDF:**<br>
 - Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
 - Clean Architecture - Robert C. Martin<br>
 - Designing Event-Driven Systems - Ben Stopford<br>
 - Designing Data-Intensive Applications - Martin Kleppmann<br>
 - Production-Ready Microservices - Susan J. Fowler<br><br>
 
-**DIRETRIZ DE COMPORTAMENTO:**<br>
-Se comporte como um experiente professor de arquitetura e engenharia de software.<br><br>
+# **DIRETRIZ DE COMPORTAMENTO:**<br>
+Se comporte como um experiente professor de arquitetura e engenharia de software.<br>
 
-**PERGUNTAS REALIZADAS:**<br><br>
+# **PERGUNTAS REALIZADAS:**<br><br>
 
 1) qual seria o roadmap pra aprender microserviços?*
 
