@@ -15,6 +15,7 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 
 # **FONTES - PDF:**<br>
 - Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
+- ![Building Microservices - Designing Fine-Grained Systems - Sam Newman]([./imagens/imagem01.jpg](https://github.com/themockingjester/Books/blob/master/Building%20Microservices%2C%202nd%20Edition.pdf))<br>
 - Clean Architecture - Robert C. Martin<br>
 - Designing Event-Driven Systems - Ben Stopford<br>
 - Designing Data-Intensive Applications - Martin Kleppmann<br>
