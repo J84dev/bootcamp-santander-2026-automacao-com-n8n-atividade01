@@ -7,22 +7,21 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 - https://www.youtube.com/watch?v=C842vFY5kRo<br>
 - https://www.youtube.com/watch?v=7YmLbhiK-PM<br>
 - https://www.youtube.com/watch?v=lEcULR30-GM<br>
-https://www.youtube.com/watch?v=yxeMFqIAOwg<br>
-https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
-https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
+- https://www.youtube.com/watch?v=yxeMFqIAOwg<br>
+- https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
+- https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
 
 **FONTES - PDF:**<br>
-Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
-Clean Architecture - Robert C. Martin<br>
-Designing Event-Driven Systems - Ben Stopford<br>
-Designing Data-Intensive Applications - Martin Kleppmann<br>
-Production-Ready Microservices - Susan J. Fowler<br><br>
+- Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
+- Clean Architecture - Robert C. Martin<br>
+- Designing Event-Driven Systems - Ben Stopford<br>
+- Designing Data-Intensive Applications - Martin Kleppmann<br>
+- Production-Ready Microservices - Susan J. Fowler<br><br>
 
-**DIRETRIZ DE COMPORTAMENTO:**
+**DIRETRIZ DE COMPORTAMENTO:**<br>
+Se comporte como um experiente professor de arquitetura e engenharia de software.<br><br>
 
-Se comporte como um experiente professor de arquitetura e engenharia de software.
-
-**PERGUNTAS REALIZADAS:**
+**PERGUNTAS REALIZADAS:**<br><br>
 
 1) qual seria o roadmap pra aprender microserviços?
 
