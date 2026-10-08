@@ -23,13 +23,11 @@ Se comporte como um experiente professor de arquitetura e engenharia de software
 
 **PERGUNTAS REALIZADAS:**<br><br>
 
-1) qual seria o roadmap pra aprender microserviços?
+1) qual seria o roadmap pra aprender microserviços?*
 
 Aprender microsserviços não é apenas aprender novas ferramentas ou frameworks, mas sim dominar a **gestão de complexidade em sistemas distribuídos, a definição de fronteiras de domínio e a prontidão operacional**[1][2][3].
 
 Abaixo está o **roadmap pedagógico estruturado em 5 fases**, elaborado a partir das principais referências da área:
-
----
 
 ### **Fase 1: Fundamentos Arquiteturais e Decisão de Modelo**
 
@@ -39,8 +37,6 @@ Antes de construir sistemas distribuídos, é essencial entender o ponto de part
 * **Identificação de Problemas Reais**: A migração deve ser motivada por gargalos claros de escalabilidade, contenção de entrega (*delivery contention*) entre equipes organizacionais ou necessidade de autonomia técnica[9][10][11][12].
 * **A Metáfora do Botão (** **Dial** **) e Trade-offs**: Adotar microsserviços não é um "interruptor", mas um "botão" que se gira gradualmente[13][14]. Quanto mais serviços são criados, maior a flexibilidade, mas também maiores os pontos de dor e as formas imprevisíveis de falha de um sistema distribuído[1][13][15].
 
----
-
 ### **Fase 2: Modelagem de Domínio e Decomposição**
 
 A maior dificuldade em microsserviços não é o código, mas a definição das **fronteiras (** **boundaries** **)** corretas[13][16]:
@@ -48,8 +44,6 @@ A maior dificuldade em microsserviços não é o código, mas a definição das 
 * **Princípios Modulares Clássicos**: Dominar o **Ocultamento de Informação (** **Information Hiding** **)** — esconder detalhes internos atrás de contratos externos estáveis[17][18] — além de garantir **Alta Coesão** e **Baixo Acoplamento**[19][20].
 * **Domain-Driven Design (DDD) e Contextos Delimitados (** **Bounded Contexts** **)**: Usar o DDD para mapear os *seams* (costuras) do negócio e definir os *Bounded Contexts*[21][22][23]. As fronteiras dos microsserviços devem refletir os domínios de negócio, e nunca divisões estritamente técnicas (como criar um serviço exclusivo para banco de dados)[24][25].
 * **Decomposição Incremental**: Aprender a estratégia de "descascar" o monolito aos poucos (padrão *Strangler Fig*) em vez de tentar uma reescrita do zero (*big-bang rewrite*)[26][27][28][29].
-
----
 
 ### **Fase 3: Estilos de Comunicação e Padrões de Integração**
 
@@ -61,8 +55,6 @@ Compreender como os serviços trocam dados sem criar dependências frágeis:
 * **Arquitetura Orientada a Eventos (EDA)**: Diferenciar **Comandos** (solicitações de ação futura) de **Eventos** (fatos imutáveis passados)[34][39], explorando padrões como *Publish-Subscribe* e *Event-Carried State Transfer*[40][41][42].
 * **Gestão de Transações Distribuídas**: Substituir transações ACID distribuídas pelo padrão **Saga** (gerenciando fluxos via **Coreografia** ou **Orquestração** com ações de compensação em caso de falha)[43][44][45][46].
 
----
-
 ### **Fase 4: Infraestrutura, Implantação e Plataforma**
 
 Entender a camada de plataforma que sustenta o ecossistema de microsserviços[47][48]:
@@ -71,8 +63,6 @@ Entender a camada de plataforma que sustenta o ecossistema de microsserviços[47
 * **Orquestração e Escala**: Evolução para **Kubernetes** e plataformas *serverless*/FaaS conforme a escala e a complexidade do ecossistema aumentam[43][51][52].
 * **Roteamento e Descoberta (** **Service Discovery &amp; API Gateways** **)**: Implementação de *Service Registries* (como Consul ou ZooKeeper) e *Service Meshes* para gerenciar roteamento, resolução de IPs e balanceamento de carga de instâncias saudáveis[53][54][55].
 * **Pipelines de CI/CD e Implantação Segura**: Automação do ciclo de compilação, testes e deploys[56][57], utilizando estratégias como ambiente de *Staging*, lançamentos canário (*Canary Releases*) e *Blue-Green Deployments* para evitar paradas em produção[58][59][60].
-
----
 
 ### **Fase 5: Testes, Observabilidade e Prontidão para Produção (** **Production Readiness** **)**
 
@@ -83,11 +73,15 @@ Garantir que os serviços funcionem de forma confiável em um ambiente real e in
 * **Padrões de Resiliência e Estabilidade**: Aplicar *Circuit Breakers*, *Timeouts*, *Bulkheads*, *Retries*, Idempotência e *Defensive Caching* para evitar que a falha de um serviço derrube todo o sistema[71][72][73][74][75].
 * **Auditorias de Production Readiness**: Estabelecer padrões operacionais claros, documentação técnica, *runbooks* para sobreaviso (*on-call*) e monitoramento baseado em SLOs/SLAs[3][56][76][77].
 
----
-
 🎯 *Se você quiser focar na prática de alguma destas fases, podemos detalhar como implementar a* **decomposição de um monolito usando DDD** *, ou estruturar um projeto prático de* **mensageria assíncrona com RabbitMQ** *.*
 
+---
+*
 
+Foram mais de 70 citações das fontes utilizadas. Seguem 3 prints para evidenciar:
+- ![Pergunta 1 - Imagem 1](./imagens/imagem01.png)
+- 2
+- 3
 
 
 
