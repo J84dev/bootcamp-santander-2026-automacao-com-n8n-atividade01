@@ -115,9 +115,9 @@ Em sistemas em estágio inicial ou com volume moderado, equipes por vezes utiliz
 💡 *Se você quiser explorar a fundo o confronto direto entre* **RabbitMQ (orientado a filas/AMQP)** *e* **Apache Kafka (orientado a logs de eventos)** *, ou entender quando aplicar o padrão* **Transactional Outbox** *para publicar mensagens com segurança, posso detalhar esse comparativo.*
 
 Foram mais de 70 citações das fontes utilizadas. Seguem 3 prints para evidenciar:
-- ![Pergunta 1 - Imagem 1](./imagens/imagem01.jpg)
-- ![Pergunta 1 - Imagem 2](./imagens/imagem02.jpg)
-- ![Pergunta 1 - Imagem 3](./imagens/imagem03.jpg)<br><br>
+- ![Pergunta 2 - Imagem 1](./imagens/imagem04.jpg)
+- ![Pergunta 2 - Imagem 2](./imagens/imagem05.jpg)
+- ![Pergunta 2 - Imagem 3](./imagens/imagem06.jpg)<br><br>
 
 # **MATERIAIS GERADOS:**<br>
 **Os materiais gerados na área "STUDIO" estão disponíveis no notebook em questão.**
