@@ -1,4 +1,4 @@
-# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br><br>
+# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br>
 **TEMA/OBJETIVO:**<br>
 Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br><br>
 **FONTES - VIDEOS:**<br>
@@ -12,7 +12,6 @@ https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
 https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
 
 **FONTES - PDF:**<br>
-
 Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
 Clean Architecture - Robert C. Martin<br>
 Designing Event-Driven Systems - Ben Stopford<br>
