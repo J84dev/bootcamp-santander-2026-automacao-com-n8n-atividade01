@@ -1,4 +1,4 @@
-# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**
+# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br>
 
 # **TEMA/OBJETIVO:**<br>
 Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br>
@@ -21,7 +21,7 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 - Production-Ready Microservices - Susan J. Fowler<br><br>
 
 # **DIRETRIZ DE COMPORTAMENTO:**<br>
-Se comporte como um experiente professor de arquitetura e engenharia de software.<br>
+Se comporte como um experiente professor de arquitetura e engenharia de software.<br><br>
 
 # **PERGUNTAS REALIZADAS:**<br><br>
 
@@ -31,7 +31,7 @@ Aprender microsserviços não é apenas aprender novas ferramentas ou frameworks
 
 Abaixo está o **roadmap pedagógico estruturado em 5 fases**, elaborado a partir das principais referências da área:
 
-### **Fase 1: Fundamentos Arquiteturais e Decisão de Modelo**
+ **Fase 1: Fundamentos Arquiteturais e Decisão de Modelo**
 
 Antes de construir sistemas distribuídos, é essencial entender o ponto de partida e os reais motivos para adotar essa arquitetura:
 
@@ -39,7 +39,7 @@ Antes de construir sistemas distribuídos, é essencial entender o ponto de part
 * **Identificação de Problemas Reais**: A migração deve ser motivada por gargalos claros de escalabilidade, contenção de entrega (*delivery contention*) entre equipes organizacionais ou necessidade de autonomia técnica[9][10][11][12].
 * **A Metáfora do Botão (** **Dial** **) e Trade-offs**: Adotar microsserviços não é um "interruptor", mas um "botão" que se gira gradualmente[13][14]. Quanto mais serviços são criados, maior a flexibilidade, mas também maiores os pontos de dor e as formas imprevisíveis de falha de um sistema distribuído[1][13][15].
 
-### **Fase 2: Modelagem de Domínio e Decomposição**
+ **Fase 2: Modelagem de Domínio e Decomposição**
 
 A maior dificuldade em microsserviços não é o código, mas a definição das **fronteiras (** **boundaries** **)** corretas[13][16]:
 
@@ -47,7 +47,7 @@ A maior dificuldade em microsserviços não é o código, mas a definição das 
 * **Domain-Driven Design (DDD) e Contextos Delimitados (** **Bounded Contexts** **)**: Usar o DDD para mapear os *seams* (costuras) do negócio e definir os *Bounded Contexts*[21][22][23]. As fronteiras dos microsserviços devem refletir os domínios de negócio, e nunca divisões estritamente técnicas (como criar um serviço exclusivo para banco de dados)[24][25].
 * **Decomposição Incremental**: Aprender a estratégia de "descascar" o monolito aos poucos (padrão *Strangler Fig*) em vez de tentar uma reescrita do zero (*big-bang rewrite*)[26][27][28][29].
 
-### **Fase 3: Estilos de Comunicação e Padrões de Integração**
+ **Fase 3: Estilos de Comunicação e Padrões de Integração**
 
 Compreender como os serviços trocam dados sem criar dependências frágeis:
 
@@ -57,7 +57,7 @@ Compreender como os serviços trocam dados sem criar dependências frágeis:
 * **Arquitetura Orientada a Eventos (EDA)**: Diferenciar **Comandos** (solicitações de ação futura) de **Eventos** (fatos imutáveis passados)[34][39], explorando padrões como *Publish-Subscribe* e *Event-Carried State Transfer*[40][41][42].
 * **Gestão de Transações Distribuídas**: Substituir transações ACID distribuídas pelo padrão **Saga** (gerenciando fluxos via **Coreografia** ou **Orquestração** com ações de compensação em caso de falha)[43][44][45][46].
 
-### **Fase 4: Infraestrutura, Implantação e Plataforma**
+ **Fase 4: Infraestrutura, Implantação e Plataforma**
 
 Entender a camada de plataforma que sustenta o ecossistema de microsserviços[47][48]:
 
@@ -66,7 +66,7 @@ Entender a camada de plataforma que sustenta o ecossistema de microsserviços[47
 * **Roteamento e Descoberta (** **Service Discovery &amp; API Gateways** **)**: Implementação de *Service Registries* (como Consul ou ZooKeeper) e *Service Meshes* para gerenciar roteamento, resolução de IPs e balanceamento de carga de instâncias saudáveis[53][54][55].
 * **Pipelines de CI/CD e Implantação Segura**: Automação do ciclo de compilação, testes e deploys[56][57], utilizando estratégias como ambiente de *Staging*, lançamentos canário (*Canary Releases*) e *Blue-Green Deployments* para evitar paradas em produção[58][59][60].
 
-### **Fase 5: Testes, Observabilidade e Prontidão para Produção (** **Production Readiness** **)**
+ **Fase 5: Testes, Observabilidade e Prontidão para Produção (** **Production Readiness** **)**
 
 Garantir que os serviços funcionem de forma confiável em um ambiente real e instável[11][61]:
 
