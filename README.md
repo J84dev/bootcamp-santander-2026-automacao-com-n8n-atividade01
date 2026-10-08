@@ -14,12 +14,11 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 - https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
 
 # **FONTES - PDF:**<br>
-- Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
 - [Building Microservices - Designing Fine-Grained Systems - Sam Newman](https://github.com/themockingjester/Books/blob/master/Building%20Microservices%2C%202nd%20Edition.pdf)<br>
-- Clean Architecture - Robert C. Martin<br>
-- Designing Event-Driven Systems - Ben Stopford<br>
-- Designing Data-Intensive Applications - Martin Kleppmann<br>
-- Production-Ready Microservices - Susan J. Fowler<br><br>
+- [Clean Architecture - Robert C. Martin](https://github.com/ivanarandac/Books/blob/master/Clean%20Architecture%20A%20Craftsman%20Guide%20to%20Software%20Structure%20and%20Design.pdf)<br>
+- [Designing Event-Driven Systems - Ben Stopford](https://github.com/sovansela/books-lib/blob/main/confluent-designing-event-driven-systems.pdf)<br>
+- [Designing Data-Intensive Applications - Martin Kleppmann](https://github.com/sovansela/books-lib/blob/main/Designing%20Data%20Intensive%20Applications%20-%20Martin%20Kleppmann.pdf)<br>
+- [Production-Ready Microservices - Susan J. Fowler](https://github.com/ivanarandac/Books/blob/master/Production%20Ready%20Microservices.pdf)<br><br>
 
 # **DIRETRIZ DE COMPORTAMENTO:**<br>
 Se comporte como um experiente professor de arquitetura e engenharia de software.<br><br>
