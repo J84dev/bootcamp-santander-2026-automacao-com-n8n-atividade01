@@ -70,9 +70,47 @@ Foram mais de 70 citações das fontes utilizadas. Seguem 3 prints para evidenci
 - ![Pergunta 1 - Imagem 2](./imagens/imagem02.jpg)
 - ![Pergunta 1 - Imagem 3](./imagens/imagem03.jpg)<br><br>
 
-**Pergunta 2: xxx**
+**Pergunta 2: quais são as opções pra mensageria? rabbitmq e o que mais?**
 
+Além do **RabbitMQ**, a literatura e os materiais de referência apresentam uma grande variedade de opções para mensageria e *streaming* de eventos, divididas em diferentes categorias arquiteturais conforme o padrão de acesso e a escala necessária[1][2]:
 
+ 1\. Brokers de Event Streaming Baseados em Log (*Log-Based Event Brokers*)
+Diferente dos message brokers tradicionais (que apagam a mensagem após a entrega), estes sistemas gravam os eventos de forma ordenada e durável em um *log* sequencial (*append-only*) no disco[3]. Isso permite que múltiplos consumidores leiam os eventos em seu próprio ritmo e reprocessem (*replay*) o histórico de dados[2][3].
+* **Apache Kafka**: É a solução *de facto* para streaming de eventos em larga escala[6][7]. Oferece permanência de mensagens, particionamento horizontal, alta taxa de transferência e suporte nativo a processamento de streams (com Kafka Streams e ksqlDB)[3].
+* **Apache Pulsar**: Plataforma de mensagens e streaming de eventos de alto desempenho, citada como alternativa moderna ao Kafka para cenários de captura de alterações (*Change Data Capture - CDC*) e mensageria enterprise[9][10].
+* **Amazon Kinesis Streams**: Serviço gerenciado da AWS focado no processamento contínuo de dados e eventos em tempo real[5][11].
+* **Twitter DistributedLog**: Motor de log distribuído de alta vazão para ordenação e retenção de fluxos de dados[5].
+
+ 2\. Message Brokers Tradicionais (Estilo AMQP / JMS / Fila Ponto a Ponto e Pub-Sub)
+
+Projetados para a entrega transitória de mensagens entre aplicações. O foco é rotear, entregar e remover a mensagem do broker após o consumo (*acknowledgment*)[12].
+* **Apache ActiveMQ**: Uma das implementações de código aberto mais tradicionais para os padrões JMS e AMQP[1].
+* **NATS**: Sistema de mensageria leve, simples e de altíssimo desempenho, amplamente utilizado em arquiteturas nativas de nuvem (*cloud-native*) e microsserviços[1][10].
+* **HornetQ** e **Apache Qpid**: Brokers compatíveis com AMQP e JMS para ecossistemas enterprise[1][15].
+* **Soluções Enterprise Clássicas**:
+  * **IBM MQ (WebSphere MQ)**[15]
+  * **Microsoft MSMQ**[16]
+  * **TIBCO Enterprise Message Service / TIB/Rendezvous**[1]
+
+ 3\. Serviços Gerenciados na Nuvem (*Cloud-Native Messaging*)
+Opções serverless/gerenciadas pelas provedoras de nuvem que eliminam a necessidade de provisionar e gerenciar clusters de infraestrutura[11][20].
+* **AWS SQS (Simple Queue Service)**: Serviço de filas ponto a ponto altamente escalável e gerenciado pela AWS[11][21].
+* **AWS SNS (Simple Notification Service)**: Serviço de *publish-subscribe* gerenciado para difusão (*broadcast*) de mensagens[11][21].
+* **Google Cloud Pub/Sub**: Plataforma de mensageria global e gerenciada da GCP[1].
+* **Azure Service Bus**: Broker gerenciado da Microsoft voltado para mensageria corporativa, filas e tópicos[1].
+
+ 4\. Armazenamentos em Memória e Soluções Híbridas
+* **Redis**: Embora seja originalmente um banco de dados/cache em memória, é amplamente utilizado como um broker leve (através de *Pub/Sub*, estruturas de lista/filas ou *Redis Streams*), sendo muito comum em integrações com bibliotecas como Celery ou em filas locais de background[23].
+
+ 5\. O Banco de Dados Relacional como Fila (*Database as a Queue*)
+Em sistemas em estágio inicial ou com volume moderado, equipes por vezes utilizam tabelas do próprio banco relacional (como PostgreSQL ou MySQL) em conjunto com mecanismos de travamento de linhas (*row-locking* via `FOR UPDATE SKIP LOCKED`) para coordenar tarefas[26].
+* **Vantagens**: Simplifica a infraestrutura inicial por não exigir o gerenciamento de um broker separado[26][28].
+* **Trade-offs e Alerta**: Conforme o volume de mensagens e concorrentes cresce, essa abordagem gera gargalos no banco e força os desenvolvedores a implementar manualmente recursos que os brokers já trazem de fábrica, como *Dead Letter Queues* (DLQ), priorização e politicas de retentativa[26].
+
+ 6\. Abordagens Sem Broker (*Brokerless Messaging*)
+* **ZeroMQ** e **nanomsg**: Bibliotecas de transporte assíncrono ponto a ponto que operam diretamente entre processos na rede sem a presença de um servidor broker intermediário[31].
+
+💡 *Se você quiser explorar a fundo o confronto direto entre* **RabbitMQ (orientado a filas/AMQP)** *e* **Apache Kafka (orientado a logs de eventos)** *, ou entender quando aplicar o padrão* **Transactional Outbox** *para publicar mensagens com segurança, posso detalhar esse comparativo.*
 
 
 
