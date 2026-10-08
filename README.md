@@ -1,5 +1,7 @@
 # **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM**<br>
 
+[Link para o notebook](https://notebook.google.com/notebook/cd7b020b-a68b-4f52-a3b0-ddd512cfd3f5)<br>
+
 # **TEMA/OBJETIVO:**<br>
 Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br>
 
@@ -112,9 +114,13 @@ Em sistemas em estágio inicial ou com volume moderado, equipes por vezes utiliz
 
 💡 *Se você quiser explorar a fundo o confronto direto entre* **RabbitMQ (orientado a filas/AMQP)** *e* **Apache Kafka (orientado a logs de eventos)** *, ou entender quando aplicar o padrão* **Transactional Outbox** *para publicar mensagens com segurança, posso detalhar esse comparativo.*
 
+Foram mais de 70 citações das fontes utilizadas. Seguem 3 prints para evidenciar:
+- ![Pergunta 1 - Imagem 1](./imagens/imagem01.jpg)
+- ![Pergunta 1 - Imagem 2](./imagens/imagem02.jpg)
+- ![Pergunta 1 - Imagem 3](./imagens/imagem03.jpg)<br><br>
 
-
-
+# **MATERIAIS GERADOS:**<br>
+**Os materiais gerados na área "STUDIO" estão disponíveis no notebook em questão.**
 
 
 
