@@ -1,6 +1,6 @@
-# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br>
+# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br><br>
 **TEMA/OBJETIVO:**<br>
-Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br>
+Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br><br>
 **FONTES - VIDEOS:**<br>
 https://www.youtube.com/watch?v=1O2LkhlKO5Q<br>
 https://www.youtube.com/watch?v=hrvx8Nv9eQA<br>
@@ -9,15 +9,15 @@ https://www.youtube.com/watch?v=7YmLbhiK-PM<br>
 https://www.youtube.com/watch?v=lEcULR30-GM<br>
 https://www.youtube.com/watch?v=yxeMFqIAOwg<br>
 https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
-https://www.youtube.com/watch?v=vRyKe6Ya0dI<br>
+https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
 
-**FONTES - PDF:**
+**FONTES - PDF:**<br>
 
-Building Microservices - Designing Fine-Grained Systems - Sam Newman
-Clean Architecture - Robert C. Martin
-Designing Event-Driven Systems - Ben Stopford
-Designing Data-Intensive Applications - Martin Kleppmann
-Production-Ready Microservices - Susan J. Fowler
+Building Microservices - Designing Fine-Grained Systems - Sam Newman<br>
+Clean Architecture - Robert C. Martin<br>
+Designing Event-Driven Systems - Ben Stopford<br>
+Designing Data-Intensive Applications - Martin Kleppmann<br>
+Production-Ready Microservices - Susan J. Fowler<br><br>
 
 **DIRETRIZ DE COMPORTAMENTO:**
 
