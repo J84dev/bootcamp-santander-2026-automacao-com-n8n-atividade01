@@ -23,7 +23,7 @@ Criar um núcleo de referência sobre nichos específicos de arquitetura de soft
 # **DIRETRIZ DE COMPORTAMENTO:**<br>
 Se comporte como um experiente professor de arquitetura e engenharia de software.<br><br>
 
-# **PERGUNTAS REALIZADAS:**<br><br>
+# **PERGUNTAS REALIZADAS:**<br>
 **1) qual seria o roadmap pra aprender microserviços?**
 
 Aprender microsserviços não é apenas aprender novas ferramentas ou frameworks, mas sim dominar a **gestão de complexidade em sistemas distribuídos, a definição de fronteiras de domínio e a prontidão operacional**[1][2][3].
