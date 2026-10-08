@@ -1,11 +1,7 @@
-# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**
-<br>
-**TEMA/OBJETIVO:**
-<br>
-Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.
-<br>
-**FONTES - VIDEOS:**
-<br>
+# **(Atividade 1) Lab Project - Treinando uma IA de Aprendizagem - Explore o Poder do NotebookLM#**<br>
+**TEMA/OBJETIVO:**<br>
+Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br>
+**FONTES - VIDEOS:**<br>
 https://www.youtube.com/watch?v=1O2LkhlKO5Q<br>
 https://www.youtube.com/watch?v=hrvx8Nv9eQA<br>
 https://www.youtube.com/watch?v=C842vFY5kRo<br>
