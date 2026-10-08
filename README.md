@@ -2,11 +2,11 @@
 **TEMA/OBJETIVO:**<br>
 Criar um núcleo de referência sobre nichos específicos de arquitetura de software: Event Driven Architecture, Microservices, Messaging e afins.<br><br>
 **FONTES - VIDEOS:**<br>
-https://www.youtube.com/watch?v=1O2LkhlKO5Q<br>
-https://www.youtube.com/watch?v=hrvx8Nv9eQA<br>
-https://www.youtube.com/watch?v=C842vFY5kRo<br>
-https://www.youtube.com/watch?v=7YmLbhiK-PM<br>
-https://www.youtube.com/watch?v=lEcULR30-GM<br>
+- https://www.youtube.com/watch?v=1O2LkhlKO5Q<br>
+- https://www.youtube.com/watch?v=hrvx8Nv9eQA<br>
+- https://www.youtube.com/watch?v=C842vFY5kRo<br>
+- https://www.youtube.com/watch?v=7YmLbhiK-PM<br>
+- https://www.youtube.com/watch?v=lEcULR30-GM<br>
 https://www.youtube.com/watch?v=yxeMFqIAOwg<br>
 https://www.youtube.com/watch?v=DOaDpHh1FsQ<br>
 https://www.youtube.com/watch?v=vRyKe6Ya0dI<br><br>
